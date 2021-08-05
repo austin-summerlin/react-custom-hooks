@@ -3,18 +3,18 @@ import PropTypes from 'prop-types';
 
 function Character({
   name,
+  image,
   house,
   patronus,
-  image,
-  wand,
+  wand
 }) {
   return (
-    <div className="character">
+    <div>
       <img src={image} alt={name} />
-      <p>Name:{name}</p>
-      <p>House:{house}</p>
-      <p>Patronus:{patronus}</p>
-      <p>Wand:{wand}</p>
+      <p>Name: {name}</p>
+      <p>House: {house}</p>
+      <p>Patronus: {patronus}</p>
+
     </div>
   );
 }
@@ -24,7 +24,6 @@ Character.propTypes = {
   house: PropTypes.string,
   patronus: PropTypes.string,
   image: PropTypes.string,
-  wand: PropTypes.string,
 };
 
 export default Character;
