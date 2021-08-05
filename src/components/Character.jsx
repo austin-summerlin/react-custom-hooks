@@ -6,7 +6,6 @@ function Character({
   image,
   house,
   patronus,
-  wand
 }) {
   return (
     <div>
