@@ -7,7 +7,7 @@ function CharacterList() {
   const { characters } = useCharacters();
 
   return (
-    <ul aria-label="character">
+    <ul aria-label="characters">
       {characters.map((character) => {
         return (
           <li key={character.name}>

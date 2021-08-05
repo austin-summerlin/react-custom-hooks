@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import React from 'react';
 import CharacterList from '../components/CharacterList';
 import { useCharacters } from '../hooks/useCharacters';
